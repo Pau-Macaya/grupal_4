@@ -17,7 +17,7 @@
     <main>
       <header>CÁLCULOS DE FECHAS</header>
       <section id="calculoEdad">
-        <h1>Cálculo de edad:</h1>
+        <h1 class="calculoEdad">Cálculo de edad:</h1>
 
         <input type="date" name="user_date" id="user_date" />
         <input
@@ -31,7 +31,9 @@
       <div id="result"></div>
 
       <section id="calculoPermanencia">
-        <h1>Cálculo de permanencia en la organización:</h1>
+        <h1 class="calculoPermanencia">
+          Cálculo de permanencia en la organización:
+        </h1>
         <input
           type="date"
           name="fecha_inicio"
@@ -52,10 +54,10 @@
           class="btn btn-primary btn-sm"
           onclick="javascript:calcularPermanencia();"
         />
-
-        <!-- div donde mostraremos el resultado -->
-        <div class="resultado" id="resultado"></div>
       </section>
+
+      <!-- div donde mostraremos el resultado -->
+      <div class="resultado" id="resultado"></div>
 
       <script src="./index.js"></script>
       <script
