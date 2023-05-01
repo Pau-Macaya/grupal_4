@@ -22,6 +22,7 @@ header {
   background-color: rgb(241, 173, 173);
   padding: 50px;
   margin: 80px 100px 15px 80px;
+  border-radius: 20px;
 }
 
 #calculoPermanencia {
@@ -29,6 +30,7 @@ header {
   background-color: rgb(241, 173, 173);
   padding: 50px;
   margin: 80px 100px 15px 80px;
+  border-radius: 20px;
 }
 
 h1 {
@@ -59,6 +61,15 @@ h1 {
   margin-left: 100px;
   margin-right: 100px;
 }
-input {
-  align-content: right;
+
+#user_date{
+  text-align: center;
+}
+
+#fecha_inicio{
+  text-align: center;
+}
+
+#fecha_termino{
+  text-align: center;
 }
